@@ -71,7 +71,6 @@ class ContactListScreen extends StatelessWidget {
           Contact contact = contacts[index];
           return ListTile(
             title: Text(contact.name),
-            subtitle: Text(contact.email),
             onTap: () => _showContactDetails(context, contact),
           );
         },
